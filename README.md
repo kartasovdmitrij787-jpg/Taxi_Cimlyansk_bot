@@ -2,8 +2,7 @@
 # Description
   Telegram bot on pyTelegramBotAPI, Static Map - 'TaxiBotTelegram' for taxi orders.
 # Starting project
-   Create new bot on BotFather and copy token.
-   ![](https://github.com/shugaibov-valy/HomeHelperBotTelegram/blob/master/botfather.png)
+   Create new bot on BotFather and copy 
 
 # requirements.txt
     requests==2.25.1
@@ -15,4 +14,3 @@
 # Starting in console
    >```python app.py```
   
-![](https://github.com/shugaibov-valy/TaxiBotTelegram/blob/master/screen_bot.png)
