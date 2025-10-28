@@ -1,0 +1,19 @@
+from aiogram import Bot, Dispatcher, executor, types
+
+API_TOKEN = 8482992802:AAEFG1Zn6nOxQZZ0U2jpkCg8oP4TwNkNSuk
+
+bot = Bot(token=API_TOKEN)
+dp = Dispatcher(bot)
+
+@dp.message_handler(commands=['start'])
+async def send_welcome(message: types.Message):
+    await message.reply("Здравствуйте! Я такси-бот. Напишите адрес подачи.")
+
+@dp.message_handler()
+async def handle_order(message: types.Message):
+    address = message.text
+    # Здесь можно добавить обработку и отправку заказа
+    await message.reply(f"Заказ принят. Машина скоро будет по адресу: {address}")
+
+if __name__ == '__main__':
+    executor.start_polling(dp, skip_updates=True)
