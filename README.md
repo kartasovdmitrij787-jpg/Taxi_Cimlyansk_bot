@@ -1,6 +1,6 @@
 # Taxi_Cimlyansk_bot Telegram
 # Description
-  Telegram bot on pyTelegramBotAPI, Static Map - 'TaxiBotTelegram' for taxi orders.
+  Telegram bot on pyTelegramBotAPI, Static Map - 'Taxi_Cimlyansk_bot for taxi orders.
 # Starting project
    Create new bot on BotFather and copy 
 
